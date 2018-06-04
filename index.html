@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Keyboard Event</title>
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" v-model="name">
+            <p>{{ name }}</p>
+        </div>
+
+        <script src="vue.js"></script>
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    name: 'Taufan'
+                }
+            });
+        </script>
+    </body>
+</html>
